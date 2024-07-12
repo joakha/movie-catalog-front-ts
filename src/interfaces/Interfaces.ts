@@ -1,7 +1,7 @@
 //interfaces for director
 
 export interface Director  {
-    directorid: Number,
+    directorid: number,
     name: string,
     movies: Movie[],
 }
@@ -24,20 +24,50 @@ export interface DirectorActionType {
 //interfaces for movie
 
 export interface Movie {
-    movieid: Number,
+    movieid: number,
     title: string,
-    releaseYear: Number,
+    releaseYear: number,
     genre: string,
-    length: Number,
+    length: number,
     director: Director,
     reviews: Review[],
+}
+
+export interface MovieCardProps {
+    content: Movie,
+}
+
+export interface MovieReducerState {
+    movies: Movie[],
+    loading: boolean,
+    searching: boolean,
+}
+
+export interface MovieActionType {
+    type: string,
+    payload?: Movie[],
 }
 
 //interfaces for review
 
 export interface Review {
-    reviewid: Number,
-    score: Number,
+    reviewid: number,
+    score: number,
     comment: string,
     movie: Movie,
+}
+
+export interface ReviewCardProps {
+    content: Review,
+}
+
+export interface ReviewReducerState {
+    reviews: Review[],
+    loading: boolean,
+    searching: boolean,
+}
+
+export interface ReviewActionType {
+    type: string,
+    payload?: Review[],
 }

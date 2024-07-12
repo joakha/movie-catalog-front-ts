@@ -11,7 +11,7 @@ const DirectorCard = ({ content }: DirectorCardProps): ReactElement => {
 
             {content.movies.map((movie: Movie, index: Key) => {
                 return (
-                    <p key={index}>{movie.title} {movie.releaseYear.toString()}</p>
+                    <p key={index}>{movie.title} {movie.releaseYear}</p>
                 )
             })}
         </div>
