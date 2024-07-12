@@ -10,7 +10,7 @@ function App(): ReactElement {
 
   const [tab, setValue] = useState("1");
 
-  const changeTab = (event: SyntheticEvent, newValue: string) => {
+  const changeTab = (_event: SyntheticEvent, newValue: string) => {
     setValue(newValue);
   };
 
