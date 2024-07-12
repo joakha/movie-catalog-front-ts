@@ -1,2 +1,1 @@
-# movie-catalog-front-ts
-Typescript version of my frontend for my personal backend project
+Typescript version of public frontend for my personal backend project

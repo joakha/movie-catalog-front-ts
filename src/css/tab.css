@@ -1,0 +1,124 @@
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+  }
+
+body {
+
+    background-color: rgb(58, 58, 58);
+
+}
+
+h1 {
+
+    color: rgb(136, 212, 247);
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+    margin: 50px;
+
+}
+
+.contentContainer {
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    background-color: rgb(58, 58, 58);
+    height: 100%;
+
+}
+
+.infoParagraph {
+
+    margin-top: 150px;
+    text-align: center;
+    font-size: 1.5rem;
+    color: whitesmoke;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+.searchBar {
+
+    display: flex;
+    justify-content: center;
+    background-color: rgb(58, 58, 58);
+    height: 150px;
+    align-items: center;
+    color: whitesmoke;
+    gap: 200px;
+
+}
+
+label {
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin-right: 5px;
+    font-size: 2em;
+}
+
+select {
+
+    font-size: 25px;
+    padding: 5px;
+    font-family: sans-serif;
+    border-radius: 5px;
+
+}
+
+input {
+
+    padding: 5px;
+    font-size: 25px;
+    border-radius: 5px;
+    margin-left: 5px;
+
+}
+
+header {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(36, 36, 36);
+
+}
+
+img {
+
+
+    margin: 50px;
+    border-radius: 30px;
+    border: 3px solid white;
+
+
+}
+
+#haveFunMessage {
+
+    margin-bottom: 50px;
+    color: aquamarine;
+    font-size: 30px;
+
+}
+
+span {
+
+    color: aquamarine;
+
+}
+
+.undo span {
+
+    color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 20px;
+
+}

@@ -1,0 +1,43 @@
+.card{
+    border: 1px solid hsl(0, 0%, 80%);
+    border-radius: 10px;
+    box-shadow: 15px 15px 15px hsla(0, 0%, 100%, 0.1);
+    padding: 20px;
+    margin: 10px;
+    margin-top: 50px;
+    width: 400px;
+    height: 500px;
+    font-size: 1.5em;
+    text-align: center;
+    background-color: rgb(36, 36, 36);
+
+}
+
+.card:hover {
+
+    background-color: rgb(26, 26, 26);
+
+}
+
+h2 {
+
+    margin-top: 60px;
+    color: rgb(136, 212, 247);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+p {
+
+    margin-top: 25px;
+    color: rgb(218, 211, 211);
+
+}
+
+#movielistHeader {
+
+    color: rgb(132, 240, 181);
+    font-size: 30px;
+
+}
